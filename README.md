@@ -4,9 +4,9 @@ A couple of days of React.
 ## TO DO (updated daily)
 #### 06/07/2021: 'Day 1: Getting Started with React'
 - Research React: vids/docs/tutorials
-- [ ] Install: create react app
+- [x] Install: create react app
 - [x] Git
-- [ ] Code
+- [ ] Code: recreate the to-do skeleton from the assignment
 - [ ] Deploy
 
 ## Doubts , worries, questions
