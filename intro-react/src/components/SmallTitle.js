@@ -1,6 +1,6 @@
 const SmallTitle = () => {
     return (
-        <h3>Todos:</h3>
+        <h3>TODOS</h3>
     );
 }
 

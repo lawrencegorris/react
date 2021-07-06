@@ -7,7 +7,7 @@ const Tasks = () => {
             </li>
             <li>
                 <input type="checkbox" name="task2"></input>
-                <label for="task2">Pickup kids from school</label>
+                <label for="task2"> Pickup kids from school</label>
             </li>
         </ul>
     );

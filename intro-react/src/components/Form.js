@@ -1,9 +1,9 @@
 const Form = () => {
     return (
         <form>
-            <input placeholder="I want to"></input>
+            <input id="user-task-input" placeholder="I want to..."></input>
             <br></br>
-            <button>Add Task</button>
+            <button id="user-add-task-button">Add Task</button>
         </form>
     );
 }

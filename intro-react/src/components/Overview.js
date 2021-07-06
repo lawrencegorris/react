@@ -4,8 +4,8 @@ import Tasks from './Tasks'
 const Overview = () => {
     return (
         <>
-        <SmallTitle />
-        <Tasks />
+            <SmallTitle />
+            <Tasks />
         </>
     );
 }
