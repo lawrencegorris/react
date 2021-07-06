@@ -1,0 +1,19 @@
+Component: 
+"building blocks" of react apps.
+
+- Start with a capital, why? -> JSX can contain components
+- a function that returns JSX.
+
+////////////////////////////////////////
+
+JSX:
+syntax that mixes HTML in JS code.
+use JS in JSW expression? -> use {}.
+
+when writing HTML in JSX: 'class' becomes 'className'
+
+///////////////////////////////////////
+
+// notes from React/0. The Basics
+
+---------------------------------------
