@@ -1,9 +1,20 @@
-const Form = () => {
+import React, { useRef } from "react";
+
+const Form = (props) => {
+    const inputName = useRef();
+
+    function clickHandler(e){
+        e.preventDefault();
+        const task = inputName.current.value;
+        inputName.current.value = null;
+        props.addTask(task);
+    }
+
     return (
         <form>
-            <input id="user-task-input" placeholder="I want to..."></input>
+            <input ref={inputName} id="user-task-input" placeholder="I want to..."></input>
             <br></br>
-            <button id="user-add-task-button">Add Task</button>
+            <button onClick={clickHandler} id="user-add-task-button">Add Task</button>
         </form>
     );
 }

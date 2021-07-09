@@ -1,8 +1,9 @@
- const TaskItem = (props) => {
+const TaskItem = (props) => {
+
      return (
         <li>
-            <input type="checkbox" name="task1"></input>
-            <label for="task1">{ 'Priority is:' + props.priority + ': ' + props.taskName}</label>
+            <input onClick={props.updateTask} type="checkbox" name="task"></input>
+            <label htmlFor="task">{props.taskName + ' and the status is:' + props.checked}</label>
         </li>
      );
  }
