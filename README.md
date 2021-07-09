@@ -6,8 +6,8 @@ A couple of days of React.
 - Research React: vids/docs/tutorials
 - [x] Install: create react app
 - [x] Git
-- [ ] Code: recreate the to-do skeleton from the assignment
-- [ ] Deploy
+- [x] Code: recreate the to-do skeleton from the assignment
+- [x] Deploy
 
 ## Doubts , worries, questions
 To be updated when necessary.
